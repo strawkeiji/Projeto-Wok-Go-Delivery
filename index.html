@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Wok&Go</title>
+	<script src="Menu-controller.js"></script>
+	<link rel="stylesheet" href="index.css"> 
+	<meta charset="utf-8">
+</head>
+<body>
+	
+	<div id="divLogo">
+			<h1 id="logoTitulo" onclick="menuController.voltarInicio()">Wok&Go</h1>
+			<span onclick="menuController.cadastrar()" id="login">entrar ou cadastrar</span><br/>
+	</div>
+
+	<div id="conteudo">
+		<div id="divInicial">
+				<div id="divBordao">
+					<span id="spanBordao">Delivery Wok&Go<br>comida que mata a sua fome</span><br>
+				</div>
+				<label id="span">Informe o endereço de entrega:</label><br>
+				<input type="text" id="rua" placeholder="Rua">
+				<input type="text" id="bairro" placeholder="Bairro">
+				<input type="text" id="numero" placeholder="Número">
+				<span id="confirma" onclick="menuController.confirmar()">confirmar</span>
+		</div>
+	</div>
+		
+</body>
+</html>

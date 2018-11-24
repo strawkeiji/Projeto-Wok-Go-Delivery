@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wok&Go</title>
+        <meta charset="utf-8">
+        <script src="Cadastro.js"></script>
+        <script src="Cadastro-controller.js"></script>
+        
+        <script src="Clientes.js"></script>
+        <link rel="stylesheet" href="Cadastro.css">
+    </head>
+
+    <body>
+        <div id="divConteudo">
+        <div id="divCadastro" visible>
+            <h1>Bem-vindo!</h1>
+            <span>Informe seus dados</span><br>
+            <input type="text" placeholder="Nome" id="nomeCadastro"><br>
+            <input type="text" placeholder="Email" id="emailCadastro"><br>
+            <input type="password" placeholder="Senha" id="senhaCadastro"><br>
+            <input type="text" placeholder="Rua" id="rua">
+            <input type="text" placeholder="Bairro" id="bairro">
+            <input type="text" placeholder="Número" id="numero"><br>
+            <span id="spanRandom">Esqueci minha senha</span>
+            <button id="botaoRedireciona" onclick="cadastroController.redirecionarLogin()">Já tem uma conta?</button><br>
+            <button type="button" id="salvarDados" onclick="cadastroController.salvarDados()">salvar</button>
+        </div>
+        <div id="divLogin" hidden>
+            <h1>Bem-vindo de volta!</h1>
+            <span>Informe seus dados</span><br>
+            <input type="text" placeholder="Email" id="emailLogin"><br>
+            <input type="password" placeholder="Senha" id="senhaLogin"><br>
+            <button type="button" id="confirmar" onclick="cadastroController.confirmar()">confirmar</button>
+        </div>
+    </div>
+    </body>
+</html>

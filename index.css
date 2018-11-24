@@ -1,0 +1,211 @@
+html {
+	height: 100%;
+}
+
+body {
+	color: white;
+	font-family: verdana;
+	font-variant: small-caps;
+	text-align: center;
+	margin: 0px;
+	height: 100%;
+	overflow-y: hidden;
+	background: 
+}
+
+h1 {
+	font-size: 30pt;
+	margin-top: 40px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#menuNav {
+	width: 100%;
+	background-color: #5A5E80;
+	margin-bottom: 20px;
+	position: absolute;
+}
+
+#divLogo {
+	display: inline-block;
+	background:	#141A4A;
+	width: 100%;
+	height: 90px;
+	margin-top: 0px;
+}
+
+button {
+	height: 30px;
+	background-color: transparent;
+	color: white;
+	font-size: 15pt;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding: 10px;
+	margin-right: 120px; 
+	font-family: verdana;
+	font-variant: small-caps;
+	border-style: none;	
+	font-size: 15pt;
+}
+
+
+#display {
+	margin-top: 25px;
+	width: 280px;
+	height: 220px;
+}
+
+#divPromocoes {
+	margin-top: 40px;
+	background-color: white;
+	border-radius: 7px;
+	font-size: 20pt;
+	color: #A62000;
+	width: 100%;
+}
+
+object {
+	width: 100%;
+	height: 100vh;
+}
+
+h1 {
+	float: left;
+}
+
+
+#endereco { 
+	margin-bottom: 5px; 
+	font-size: 14pt;
+}
+
+#descricaoRestaurante {
+	margin-top: 40px;
+	background-color: white;
+	height: auto;
+	color: black;
+	width: 84%;
+	border: solid 0.4px gray;
+	margin-left: 100px;
+}
+
+#conteudo {
+	width: 100%;
+	height: 100%;
+}
+
+#logo {
+	padding: 40px;
+	margin-left: 45px;
+	float: left;
+}
+
+label {
+    margin-bottom: 40px;
+}
+
+#divLocal {
+	margin-bottom: 40px;
+}
+
+#divInicial {
+	background-image: url("background.jpg");
+	image-rendering: optimizeQuality;
+	margin-top: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#spanBordao {
+	margin-top: 70px;
+	font-size: 40pt;
+}
+
+input {
+	font-family: verdana;
+	font-variant: small-caps;
+	border-radius: 7px;
+	text-indent: 10px;
+}
+
+input::placeholder {
+	text-indent: 10px;
+	font-variant: small-caps;
+    font-family: verdana;
+}
+
+#rua {
+	margin-top: 15px;
+	margin-left: 40px;
+	width: 180px;
+}
+
+#bairro {
+	width: 140px;
+}
+
+#numero {
+	width: 90px;
+}
+
+#bairro, #numero {
+	margin-top: 15px;
+	margin-left: 7px;
+}
+
+#divBordao {
+	margin-bottom: 38px;
+}
+
+span {
+	display: inline-block;
+}
+
+#span {
+	font-size: 14pt;
+}
+
+#spanEndereco {
+	font-size: 12pt;
+	margin-top: 0px;
+	margin-right: 300px;
+}
+
+#login {
+	margin-left: 500px;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+	margin-top: 35px;
+	background: white;
+	color: #141A4A;
+}
+
+#confirma {
+	height: 90px;
+	margin-left: 15px;
+	font-size: 14pt;
+}
+
+#imgPin {
+	margin-right: 2px;
+}
+
+h1:hover {
+	cursor: pointer;
+}
+
+#login:hover {
+	cursor: pointer;
+}
+
+#confirma:hover {
+	cursor: pointer;
+}
+
+#spanBordao:hover, #span:hover {
+	cursor: default;
+}

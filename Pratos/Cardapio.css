@@ -1,0 +1,175 @@
+html {
+    height: 100%;
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#divPrato {
+    border-radius: 7px;
+    background-color: #F2F3F3;
+    border: 1px solid #C6C6C6;
+    width: 65%;
+    height: 170px;    
+    margin-top: 13px;
+    margin-left: 100px;
+    text-align: left;
+    padding: 30px;
+    text-align: auto;
+}
+
+#divPromocoes, #divPratosCoreanos, #divPratosChineses, #divPratosTailandeses, #divPratosJaponeses, #divPratosVariados {
+    margin-bottom: 0px;
+}
+
+#fotoPromo {
+    width: 130px;
+    height: 130px;
+    border-radius: 6px;
+    float: left;
+}
+
+.divMain {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+}
+
+div {
+    color: #141A4A;
+    font-family: verdana;
+    font-variant: small-caps;
+    margin-top: 50px;
+}
+
+span {
+    text-align: left;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+#adicionaCarrinho {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    background: #141A4A;
+    margin-top: 8px;
+    margin-left: 790px;
+    color: white;
+}
+
+#spanCabecalho {
+    font-size: 20pt;
+}
+
+#spanNome {
+    margin-top: 20px;
+    font-size: 14pt;
+}
+
+#spanPreco {
+    margin-left: 620px;
+    height: 40px;
+    color: gray;
+}
+
+#spanDescricao {
+    display: table-cell;
+    margin-left: 40px;
+    vertical-align: middle;
+    margin-top: 0px;
+    width: 100%
+}
+
+#spanCabecalho {
+    margin-left: 85px;
+}
+
+#logo {
+    margin-top: 60px;
+    margin-left: 5px;
+    float: left;
+    margin-right: 0px;
+    width: 170px;
+    height: 170px;
+}
+
+#divDescricao {
+    margin-left: 100px;
+    width: 80%;
+}
+
+#spanDescricaoRestaurante {
+    margin-left: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12.2pt;
+}
+
+#spanTitulo {
+    margin-top: 15px;
+    font-size: 30pt;
+    font-style: bold;
+}
+
+.nomeDoPrato, #total {
+    margin-left: 23px;
+    width: 52%;
+    display: inline-block;
+    text-align: left;
+}
+
+.precoDoPrato, #contaTotal {
+    width: 20%;
+
+    display: inline-block;
+    text-align: right;
+}
+
+#spanCarrinho {
+    margin-bottom: 10px;
+    margin-left: 51px;
+    width: 100%;
+    margin-right: 40px;
+    display: inline-block;
+    font-size: 20pt;
+}
+
+#divCarrinho {
+    margin-top: 94px;
+    border-radius: 7px;
+    height: 229px;
+    margin-right: 20px;
+    border: 1px solid #C6C6C6;;
+    background: #F2F3F3;
+    width: 17%;
+    padding: 0px;
+    float: right;
+}
+
+#divCarrinho span {
+    padding: 0px !important; 
+}
+
+#adicionaCarrinho:hover {
+    cursor: pointer;
+}
+
+#contaTotal {
+    display: inline-block;
+    width: 20%;
+}
+
+#contaTotal, #total {
+    margin-top: 10px;
+}
+
+
+
+
+

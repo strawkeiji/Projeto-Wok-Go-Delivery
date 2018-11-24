@@ -1,0 +1,108 @@
+body {
+    font-variant: small-caps;
+    font-family: verdana;
+    background: #141A4A;
+    color: white;
+}
+
+div {
+    margin-top: 100px;
+    font-variant: small-caps;
+    font-family: verdana;
+    width: 65%;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-left: 250px;
+}
+
+#divCadastro {
+    font-variant: small-caps;
+    font-family: verdana;
+    width: 65%;
+    margin-left: 160px;
+    height: auto;
+    color: white;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    font-variant: small-caps;
+    font-family: verdana;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #141A4A;
+    background-color: white;
+}
+
+#nomeCadastro, #emailCadastro, #emailLogin, #senhaCadastro, #senhaLogin {
+    width: 525px;
+}
+
+input::placeholder { 
+    font-variant: small-caps;
+    font-family: verdana;
+}
+
+input {
+    text-indent: 10px;
+    font-variant: small-caps;
+    font-family: verdana;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input::placeholder {
+    text-indent: 10px;
+    font-variant: small-caps;
+    font-family: verdana;
+}
+
+#spanRandom {
+    margin-left: 0px;
+    font-size: 10pt;
+    margin-top: 20px;
+}
+
+#spanRandom:hover {
+    cursor: pointer;
+}
+
+#button {
+    font-size: 10pt;
+}
+
+#botaoRedireciona {
+    margin-left: 70px;
+    border-style: none;
+    background-color: transparent;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+
+#botaoRedireciona:hover {
+    cursor: pointer;
+}
+
+#confirmar:hover {
+    cursor: pointer;
+}
+
+#divLogin {
+    margin-left: 160px;
+}
+
+#rua {
+    width: 250px;
+}
+
+#bairro {
+    width: 182px;
+}
+
+#numero {
+    width: 75px;
+}
